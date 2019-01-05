@@ -1,7 +1,7 @@
 
 name := "test-runner"
 
-version := "0.1.03-SNAPSHOT"
+version := "0.1.04-SNAPSHOT"
 
 scalaVersion := "2.12.8"
 
