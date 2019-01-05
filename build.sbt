@@ -1,7 +1,7 @@
 
 name := "test-runner"
 
-version := "0.1.01-SNAPSHOT"
+version := "0.1.02-SNAPSHOT"
 
 scalaVersion := "2.12.8"
 
@@ -17,11 +17,9 @@ libraryDependencies ++= Seq(
   "org.json4s" % "json4s-native_2.11" % "3.6.3",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "joda-time" % "joda-time" % "2.10.1",
-  //"org.scala-lang.modules" % "scala-xml_2.11" % "1.0.5",
   "org.scalactic" %% "scalactic" % "3.0.5",
   "org.scalatest" %% "scalatest" % "3.0.5",
   "org.testng" % "testng" % "6.9.10"
-  //"com.google.code.findbugs" % "jsr305" % "3.0.1" //"1.4.+"
 )
 
 trapExit := false
